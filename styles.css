@@ -1,0 +1,89 @@
+/* Reset some styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #da5a5a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  header nav a:hover {
+    background-color: #555;
+  }
+  
+  /* Style the main sections */
+  main section {
+    padding: 2rem;
+  }
+  
+  main section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  main section ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  main section li {
+    margin: 0.5rem;
+  }
+  
+  main section a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  }
+  
+  main section a:hover {
+    background-color: #555;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #ccc;
+  }
